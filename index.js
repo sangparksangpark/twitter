@@ -2,7 +2,7 @@ const config = require("./src/config");
 const Twit = require("twit");
 
 const Bot = new Twit(config);
-var tenSeconds = 10000;
+var thirtySeconds = 30000;
 
 function tweet(txt) {
   Bot.post(
@@ -25,4 +25,4 @@ function tweetRandomNumber() {
   tweet(randomNumber);
 }
 
-setInterval(tweetRandomNumber, tenSeconds);
+setInterval(tweetRandomNumber, thirtySeconds);
