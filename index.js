@@ -2,7 +2,7 @@ const config = require("./src/config");
 const Twit = require("twit");
 
 const Bot = new Twit(config);
-var thirtySeconds = 3600000;
+var thirtySeconds = 360000000;
 
 function tweet(txt) {
   Bot.post(
