@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/sangparksangpark/twitter#readme",
   "dependencies": {
-    "dotenv": "^8.1.0",
+    "dotenv": "^8.2.0",
     "twit": "^2.2.11"
   }
 }
